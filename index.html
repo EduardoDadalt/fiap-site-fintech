@@ -4,30 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Desendividar</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Belanosima&family=Poppins&family=Roboto&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <nav class="navbar bg-primary">
-        <div class="container-fluid flex-row">
-          <div></div>
-          <a class="navbar-brand" href="/">Desendividar</a>
-          <a href="./pages/login.html">
-            <button class="btn btn-secondary">Entrar</button>
-          </a>
+      <nav class="navbar bg-success navbar-dark navbar-expand-lg px-2">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand text-white font-logo" href="/">Desendividar</a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+          </ul>
         </div>
+
+        <a href="./pages/login.html">
+          <button class="btn btn-primary">Entrar</button>
+        </a>
       </nav>
     </header>
-    <main class="container">
-      <h1 class="display-4 text-center">Tenha controle sobre suas Dividas</h1>
+    <main class="container pt-2">
+      <h1 class="display-6 text-center">Tenha controle sobre suas Dividas</h1>
       <div class="d-flex align-items-center justify-content-center">
         <img
           class="img-fluid img-fundo"
